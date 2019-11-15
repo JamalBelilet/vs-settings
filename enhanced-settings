@@ -1,0 +1,122 @@
+{
+  "workbench.colorTheme": "Night Owl",
+  "workbench.colorCustomizations": {
+    // "editorCursor.background": "#ffffff",
+    // "editorCursor.foreground": "#0000bb",
+    // "editor.lineHighlightBackground": "#f0f0f0",
+    // "editor.selectionBackground": "#aaeeff"
+  },
+  "workbench.statusBar.visible": true,
+  "explorer.openEditors.visible": 0,
+  "editor.renderWhitespace": "none",
+  "editor.renderIndentGuides": true,
+  "editor.fontFamily": "SF Mono",
+  "editor.fontWeight": "500",
+  "editor.fontSize": 15,
+  "terminal.integrated.fontFamily": "SF Mono",
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "editor.quickSuggestionsDelay": 30,
+  "editor.letterSpacing": 0.5,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.cursorWidth": 5,
+  // this isn't really underline but we hack it to be a thicker cursor
+  "editor.cursorStyle": "line",
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": false,
+  "vscode_custom_css.imports": [
+    "/Users/mac/.vscodestyles.css"
+  ],
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "left",
+  "editor.rulers": [
+    80,
+    100
+  ],
+  "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "workbench.editor.tabCloseButton": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // show snippets before any other auto completion
+  "editor.snippetSuggestions": "top",
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  // tell the ESLint plugin to run on save
+  "eslint.autoFixOnSave": true,
+  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  "prettier.disableLanguages": [
+    "js"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "cSpell.userWords": [
+    "SIGNUP",
+    "Signin",
+    "Signout",
+    "TLDR",
+    "Templating",
+    "backend",
+    "camo",
+    "destructure",
+    "gmail",
+    "injectable",
+    "lightgrey",
+    "minmax",
+    "prefetch",
+    "promisify",
+    "refetch",
+    "jamal",
+    "belilet",
+    "jamalbelilet",
+  ],
+  "editor.autoIndent": true,
+  "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": true,
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.enablePreview": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": true,
+  "[jade]": {
+    "togglequotes.chars": [
+      "\"",
+      "'",
+      "`"
+    ]
+  },
+  "window.zoomLevel": 1,
+  "editor.parameterHints.enabled": false,
+  "dart.sdkPath": "/Users/mac/development/flutter/bin/cache/dart-sdk",
+  "dart.flutterSdkPath": "/Users/mac/development/flutter",
+  "terminal.integrated.rendererType": "dom",
+  "liveServer.settings.donotShowInfoMsg": true
+}
